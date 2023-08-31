@@ -18,8 +18,17 @@ html{
 }
 
 section{
-    margin-top: 55px;
-    margin-bottom: 40px;
+    /* margin-top: 55px; */
+    padding-bottom: 40px;
+    padding-top: 55px;
+}
+
+body{
+    background-color: grey ;
+}
+
+section{
+    background-color: white;
 }
 
 
@@ -42,6 +51,7 @@ section{
 
 .card {
     background-color: antiquewhite;
+    box-shadow: 10% ;
 }
 
 
@@ -68,8 +78,8 @@ h1 {
 
 
 
-
-/* DEBUGGING RULES */
+/* 
+DEBUGGING RULES */
 .debug .container{
     border: 1px solid blueviolet;
 
