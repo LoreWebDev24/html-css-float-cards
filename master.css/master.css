@@ -1,0 +1,82 @@
+/* RESETTIN' RULES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+img{
+    max-width: 100%;
+    width: 110px;
+    float: left;
+    padding-right: 15px;
+}
+
+html{
+    font-family: 'Kanit', sans-serif;
+}
+
+section{
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
+
+
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+    width: calc((100% - 90px)/3);
+    margin-right: 30px;
+}
+
+.contacts { 
+    padding-top: 12px;
+}
+
+.card {
+    background-color: antiquewhite;
+}
+
+
+
+h1, .centered-text{
+   margin-top: 60px;
+}
+
+h1 {
+    color: rgb(194, 37, 37);
+    font-weight: 800;
+}
+
+.container{
+    margin: 0 auto;
+    width:  1200px;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+
+
+
+
+
+/* DEBUGGING RULES */
+.debug .container{
+    border: 1px solid blueviolet;
+
+}
+
+.debug .col{
+    border: 1px solid blueviolet;
+
+}
+
