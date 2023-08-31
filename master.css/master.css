@@ -31,8 +31,6 @@ section{
     background-color: white;
 }
 
-
-
 .clearfix::after {
     content: '';
     display: table;
@@ -71,6 +69,11 @@ h1 {
 }
 
 .centered-text {
+    text-align: center;
+}
+
+.p-footer {
+    padding-top: 30px;
     text-align: center;
 }
 
