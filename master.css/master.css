@@ -6,28 +6,28 @@
     
 }
 
-img{
+img {
     max-width: 100%;
     width: 110px;
     float: left;
     padding-right: 15px;
 }
 
-html{
+html {
     font-family: 'Kanit', sans-serif;
 }
 
-section{
+section {
     /* margin-top: 55px; */
     padding-bottom: 40px;
     padding-top: 55px;
 }
 
-body{
-    background-color: grey ;
+body {
+    background-color: #222222;
 }
 
-section{
+section {
     background-color: white;
 }
 
@@ -40,7 +40,8 @@ section{
 .col {
     float: left;
     width: calc((100% - 90px)/3);
-    margin-right: 30px;
+    margin: 0 15px;
+    padding-bottom: 50px;
 }
 
 .contacts { 
@@ -48,22 +49,24 @@ section{
 }
 
 .card {
-    background-color: antiquewhite;
+    background-color: #0F0E17;
     box-shadow: 10% ;
+    color: white;
+    border: 1px solid #0F0E17 ;
+    box-shadow: 3px 3px 3px 3px grey ;
 }
 
-
-
-h1, .centered-text{
+h1, .centered-text {
    margin-top: 60px;
 }
 
 h1 {
-    color: rgb(194, 37, 37);
+    color: #E53170;
     font-weight: 800;
+    font-size: 35px;
 }
 
-.container{
+.container {
     margin: 0 auto;
     width:  1200px;
 }
@@ -75,6 +78,16 @@ h1 {
 .p-footer {
     padding-top: 30px;
     text-align: center;
+    color: white;
+}
+
+.intro-lorem {
+    font-weight: 400;
+}
+
+.email {
+    color: #4FCBF2 ;
+    font-size: 14px;
 }
 
 
@@ -83,7 +96,7 @@ h1 {
 
 /* 
 DEBUGGING RULES */
-.debug .container{
+/* .debug .container{
     border: 1px solid blueviolet;
 
 }
@@ -92,4 +105,4 @@ DEBUGGING RULES */
     border: 1px solid blueviolet;
 
 }
-
+ */
